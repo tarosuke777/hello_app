@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails',        '5.1.6'
-gem 'puma',         '3.9.1'
+gem 'puma',         '3.12.4'
 gem 'sass-rails',   '5.0.6'
 gem 'uglifier',     '3.2.0'
 gem 'coffee-rails', '4.2.2'
@@ -25,5 +25,5 @@ group :production do
   gem 'pg', '0.20.0'
 end
 
-# WindowsŠÂ‹«‚Å‚Ítzinfo-data‚Æ‚¢‚¤gem‚ğŠÜ‚ß‚é•K—v‚ª‚ ‚è‚Ü‚·
+# Windowsç’°å¢ƒã§ã¯tzinfo-dataã¨ã„ã†gemã‚’å«ã‚ã‚‹å¿…è¦ãŒã‚ã‚Šã¾ã™
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
